@@ -1,0 +1,14 @@
+@import "Variables";
+.mainEquipes a{
+    color:$colorBleuFoncée;
+    text-decoration: none;
+}
+.mainEquipes table{
+    text-align: center;
+    width:100%;
+}
+.mainEquipes{
+    background-color: lightgrey;
+    color:$colorBleuFoncée;
+    flex:1;
+}

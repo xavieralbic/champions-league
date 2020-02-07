@@ -1,0 +1,50 @@
+@import "Variables";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+
+main{
+    margin-top: 80px;
+    
+}
+
+html{
+  height:100%;
+}
+body{
+  height: 100%;
+}
+ body>div, body>div>div {
+  height:100%;
+
+}
+
+ body>div>div{
+   display:flex;
+   flex-direction: column;
+ }
+
+ .active{
+ text-decoration: underline;
+ color:$colorBleuClaire;
+
+ &:hover{
+   color:$colorBleuClaire;
+ }
+ }
+
+ table{
+   color:white;
+   &th,td{
+    border-top: 1px solid #ddd;
+    &:not(:last-child){border-right: 1px solid #ddd;}
+   }
+ }
+
+ h1{text-align:center;}

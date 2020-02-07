@@ -1,0 +1,14 @@
+@import "Variables";
+.accueil{
+    width:100%;
+    background-image:url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    color:white;
+    flex:1;
+}
+.mainPage{
+    background-color: $colorBleuFoncée;
+    
+  }
